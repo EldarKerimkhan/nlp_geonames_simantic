@@ -34,6 +34,10 @@ Comparison of arbitrary geo names with unified geonames (for internal use by the
 - таблицы geonames можно скачать здесь http://download.geonames.org/export/dump/
 - Тестовый датасет: https://disk.yandex.ru/d/wC296Rj3Yso2AQ
 
+# Используемые библиотеки
+
+*pandas, numpy, sklearn, tqdm, torch, transformers, SentenceTransformer, os*
+
 # Применение
 
 * В папке `mbart_finetuning` - пример обучения модели facebook/mbart-large-50-many-to-many-mmt
