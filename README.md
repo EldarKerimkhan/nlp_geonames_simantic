@@ -42,7 +42,7 @@ Comparison of arbitrary geo names with unified geonames (for internal use by the
 
 * В папке `mbart_finetuning` - пример обучения модели facebook/mbart-large-50-many-to-many-mmt
 
-        * `augmentation_add_typo.py` - срикпт для создания случайной опечатки в слове (6 языков):
+        * `augmentation_add_typo.py` - скрипт для создания случайной опечатки в слове (6 языков):
 
               - get_random_letter(language_code) - Функция принимает один из 6 языков и возвращает букву из соответствующего алфавита
               - add_typo(word, country) - Функция принимает слово и страну для создания случайной опечатки в слове
